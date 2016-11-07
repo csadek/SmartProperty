@@ -1,0 +1,3 @@
+cd ..\features
+behave
+pause
