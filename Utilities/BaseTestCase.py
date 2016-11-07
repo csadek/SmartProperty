@@ -15,8 +15,6 @@ class BaseTestCase(unittest.TestCase):
         # navigate to the application home page
         cls.driver.get(Conf.read_ini_config('Paths','LoginURL'))
 
-
-
     @classmethod
     def tearDownClass(cls):
         # close the browser window
