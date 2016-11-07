@@ -1,5 +1,5 @@
 from ddt import ddt, data, unpack
-from POM.Administrator.ProductsModule import ProductsModule
+from POM.HOAContext.ProductsModule import ProductsModule
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

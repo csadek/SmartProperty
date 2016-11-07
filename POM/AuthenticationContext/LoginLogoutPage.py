@@ -25,8 +25,8 @@ class LoginLogoutPage(BaseTestCase):
     def login(self):
 
         self.driver.find_element(*LoginLogoutPage.login_button).click()
-            #user_mail =  self.driver.find_element(*LoginLogoutPage.login_link).text
-            """if user_mail == 'Log in':
+        """user_mail =  self.driver.find_element(*LoginLogoutPage.login_link).text
+            if user_mail == 'Log in':
                 return self.driver.find_element(*LoginLogoutPage.Error_LBL)
             else:
                 return user_mail"""

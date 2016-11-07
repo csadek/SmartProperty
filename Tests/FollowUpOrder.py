@@ -1,7 +1,7 @@
 from ddt import ddt, data, unpack
 
-from POM.Customer.FollowUpOrderPage import FollowUpOrdersPage
-from POM.LoginLogoutPage import LoginLogoutPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
+from POM.PropertyContext.FollowUpOrderPage import FollowUpOrdersPage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

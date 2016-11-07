@@ -2,13 +2,13 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(sys.path[0], os.pardir)))
 from Utilities.BaseTestCase import BaseTestCase
-from POM.LoginLogoutPage import LoginLogoutPage
-from POM.NewUser.RegestrationPage import RegistrationPage
-from POM.Administrator.ManageUserPage import ManageUserPage
-from POM.Customer.ManageBillingAddressPage import ManageBillingAddressPage
-from POM.Customer.searchPage import SearchPage
-from POM.Customer.PaymentPages import PaymentPages
-from POM.Customer.FollowUpOrderPage import FollowUpOrdersPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
+from POM.ReportingContext.RegestrationPage import RegistrationPage
+from POM.HOAContext.ManageUserPage import ManageUserPage
+from POM.PropertyContext.ManageBillingAddressPage import ManageBillingAddressPage
+from POM.PropertyContext.searchPage import SearchPage
+from POM.PropertyContext.PaymentPages import PaymentPages
+from POM.PropertyContext.FollowUpOrderPage import FollowUpOrdersPage
 from Utilities.ReadExcel import ReadExcel
 from ddt import ddt, data, unpack
 

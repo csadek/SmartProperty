@@ -1,8 +1,8 @@
 from ddt import ddt, data, unpack
 
-from POM.Customer.ProductDetailsPage import ProductDetailsPage
-from POM.Customer.SendEmailPage import SendEmailClass
-from POM.LoginLogoutPage import LoginLogoutPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
+from POM.PropertyContext.ProductDetailsPage import ProductDetailsPage
+from POM.PropertyContext.SendEmailPage import SendEmailClass
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

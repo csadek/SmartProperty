@@ -1,6 +1,6 @@
 from ddt import ddt, data, unpack
 
-from POM.Administrator.FlashSalePage import FlashSalePage
+from POM.HOAContext.FlashSalePage import FlashSalePage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

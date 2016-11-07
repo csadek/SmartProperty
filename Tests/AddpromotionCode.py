@@ -1,6 +1,6 @@
 from ddt import ddt, data, unpack
 
-from POM.Administrator.PromotionCodePage import AddPromotionCodePage
+from POM.HOAContext.PromotionCodePage import AddPromotionCodePage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

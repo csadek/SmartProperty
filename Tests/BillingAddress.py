@@ -1,7 +1,7 @@
 from ddt import ddt, data, unpack
 
-from POM.Customer.ManageBillingAddressPage import ManageBillingAddressPage
-from POM.LoginLogoutPage import LoginLogoutPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
+from POM.PropertyContext.ManageBillingAddressPage import ManageBillingAddressPage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

@@ -1,6 +1,6 @@
 from ddt import ddt, data, unpack
 
-from POM.Administrator.CategoryPage import CategoryPage
+from POM.HOAContext.CategoryPage import CategoryPage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

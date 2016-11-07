@@ -1,1 +1,4 @@
-{}
+{
+  "LoginLogout.py::LoginLogout::test_login": true,
+  "LoginLogout.py::LoginLogout::test_logout": true
+}

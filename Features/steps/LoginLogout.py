@@ -1,9 +1,9 @@
 import os
 import sys
-from selenium import webdriver
+
 sys.path.append(os.path.abspath(os.path.join(os.path.join(sys.path[0], os.pardir), os.pardir)))
 from behave import *
-from POM.LoginLogoutPage import LoginLogoutPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
 
 login_link_text = ''
 user_name = ''

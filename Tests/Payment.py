@@ -1,8 +1,8 @@
 from ddt import ddt, data, unpack
 
-from POM.Customer.PaymentPages import PaymentPages
-from POM.Customer.searchPage import SearchPage
-from POM.LoginLogoutPage import LoginLogoutPage
+from POM.AuthenticationContext.LoginLogoutPage import LoginLogoutPage
+from POM.PropertyContext.PaymentPages import PaymentPages
+from POM.PropertyContext.searchPage import SearchPage
 from Utilities.BaseTestCase import BaseTestCase
 from Utilities.ReadExcel import ReadExcel
 

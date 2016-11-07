@@ -1,3 +1,0 @@
-cd ..\features
-behave
-pause
